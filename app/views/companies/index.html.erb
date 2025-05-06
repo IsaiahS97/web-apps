@@ -1,0 +1,13 @@
+
+
+<% companies = Company.all%> #gives all companies from company table 
+
+
+<ul>
+  <% for company in companies %> 
+    <li><%= company["name"] %></li> 
+  <% end %> 
+</ul>
+
+
+
